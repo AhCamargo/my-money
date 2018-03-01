@@ -31,7 +31,7 @@ BillingCycle.route('summary', (req, res, next) => {
         } else {
             res.json(result[0] || { credit: 0, debt: 0 })
         }
-
+       
     })
 })
 
