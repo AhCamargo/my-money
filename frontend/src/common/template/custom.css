@@ -12,3 +12,11 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
+
+button {
+    margin-left: 15px;
+}
+
+.table-actions {
+    width: 150px;
+}
