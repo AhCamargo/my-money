@@ -12,7 +12,7 @@ import Row from '../common/layout/row'
 // DASHBOARD SEM REDUX
 //
 
-const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL = 'http://localhost:80/api'
 
 
 

@@ -1,4 +1,4 @@
-const port = 3030
+const port = 80
 
 const bodyParser = require('body-parser')
 const express = require('express')
@@ -11,7 +11,7 @@ server.use(bodyParser.json())
 server.use(allowCors)
 server.use(queryParser())
 
-server.listen(port, function() {
+server.listen(process.env.PORT || port, function() {
     console.log(`Service of Backend is running on port ${port}.`)
 })
 
